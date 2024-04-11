@@ -1,0 +1,26 @@
+
+.fitness{
+
+
+  color: #FF5733;
+}
+
+.feat{
+  color: red;
+  background-color: whitesmoke;
+  font-size: 50px;
+  font-style: italic;
+}
+
+body {
+ background-color: black;
+}
+
+li {
+  color: white;
+}
+
+.para{
+  color: white;
+}
+
