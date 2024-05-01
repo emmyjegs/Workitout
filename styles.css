@@ -1,41 +1,151 @@
+/* General Styles */
 
 body {
-    background-color: skyblue;
-    color: black;
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
 h1 {
-    color: purple;
+  font-size: 2.5em;
+  margin: 0;
+}
+
+/* Navigation Styles */
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+/* Button Styles */
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #2ecc71;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #27ae60;
+}
+
+/* Form Styles */
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #c0392b;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #34495e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+body {
+  background-color: skyblue;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: purple;
 }
 
 p {
-    color: green;
+  color: green;
 }
 
 a {
-    color: orange;
+  color: orange;
 }
 
 .button {
-    background-color: yellow;
-    color: black;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 4px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
 }
 
 .button:hover {
-    background-color: lightyellow;
+  background-color: lightyellow;
 }
 
 .footer {
-    background-color: lightblue;
-    padding: 20px;
-    text-align: center;
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
 }
