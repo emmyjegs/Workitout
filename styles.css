@@ -108,3 +108,44 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+body {
+  background-color: skyblue;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: purple;
+}
+
+p {
+  color: green;
+}
+
+a {
+  color: orange;
+}
+
+.button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: lightyellow;
+}
+
+.footer {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
