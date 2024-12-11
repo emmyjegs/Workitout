@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: workitout-deployment
+  labels:
+    app: workitout
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: workitout
+  template:
+    metadata:
+      labels:
+        app: workitout
+    spec:
+      containers:
+      - name: workitout-container
+        image: workitoutregistry.azurecr.io/workitout-app:latest
+        ports:
+        - containerPort: 3000
+        env:
+        - name: NODE_ENV
+          value: "production"
