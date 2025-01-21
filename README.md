@@ -1,7 +1,7 @@
 # WorkITout Application Deployment on Kubernetes
 
 **WorkITout** is a fitness management application designed to simplify and enhance the fitness journey for individuals and groups. 
-The application is built for deployment on Kubernetes, ensuring scalability, reliability, and easy access via a public URL.
+The application is built by a deployment on Kubernetes, ensuring scalability, reliability, and easy access via a public URL.
 
 
 ## Features
@@ -25,3 +25,12 @@ This document guides you through deploying the Workitout application on **Azure 
 **Create a Resource Group**:
    ```bash
    az group create --name WorkITout --location eastus
+
+## 2. Create the AKS Cluster
+**az aks create \
+    --resource-group WorkitoutResourceGroup \
+    --name WorkitoutAKS \
+    --node-count 2 \
+    --enable-addons monitoring \
+    --generate-ssh-keys
+
